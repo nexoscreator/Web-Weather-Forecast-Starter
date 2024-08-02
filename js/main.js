@@ -5,7 +5,7 @@ const loadingSpinner = document.getElementById('loading-spinner');
 // const weatherDisplay = document.getElementById('weather-display');
 
 // Define constants for API URL and API key
-const apiKey = 'fbcf94b5f2a248b4bda53901242203';
+const apiKey = 'YOUR_API_KEY_HERE';
 const apiUrl = 'https://api.weatherapi.com/v1/current.json';
 
 // Function to display loading spinner
