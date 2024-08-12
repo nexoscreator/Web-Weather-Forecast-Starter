@@ -59,19 +59,19 @@ function displayWeather(data) {
     <div class="card">
       <h2 class="card-title">Last Updated: ${currentWeather.last_updated} is_day</h2>
       <div class="flex">
-        ${createWeatherCard('Pressure', currentWeather.pressure_in, './../assets/icon/0.svg')}
-        ${createWeatherCard('Cloud', currentWeather.cloud, './../assets/icon/1.svg')}
-        ${createWeatherCard('Visibility', currentWeather.vis_km, './../assets/icon/2.svg')}
-        ${createWeatherCard('UV', currentWeather.uv, './../assets/icon/3.svg')}
-        ${createWeatherCard('Wind', currentWeather.gust_kph, './../assets/icon/4.svg')}
+        ${createWeatherCard('Pressure', currentWeather.pressure_in, './assets/icon/0.svg')}
+        ${createWeatherCard('Cloud', currentWeather.cloud, './assets/icon/1.svg')}
+        ${createWeatherCard('Visibility', currentWeather.vis_km, './assets/icon/2.svg')}
+        ${createWeatherCard('UV', currentWeather.uv, './assets/icon/3.svg')}
+        ${createWeatherCard('Wind', currentWeather.gust_kph, './assets/icon/4.svg')}
       </div>
       <div class="card-info flex">
-        ${createAirQualityCard('CO', currentWeather.air_quality.co, './../assets/icon/5.svg')}
-        ${createAirQualityCard('NO2', currentWeather.air_quality.no2, './../assets/icon/6.svg')}
-        ${createAirQualityCard('O3', currentWeather.air_quality.o3, './../assets/icon/7.svg')}
-        ${createAirQualityCard('SO2', currentWeather.air_quality.so2, './../assets/icon/8.svg')}
-        ${createAirQualityCard('PM2.5', currentWeather.air_quality.pm2_5, './../assets/icon/9.svg')}
-        ${createAirQualityCard('PM10', currentWeather.air_quality.pm10, './../assets/icon/10.svg')}
+        ${createAirQualityCard('CO', currentWeather.air_quality.co, './assets/icon/5.svg')}
+        ${createAirQualityCard('NO2', currentWeather.air_quality.no2, './assets/icon/6.svg')}
+        ${createAirQualityCard('O3', currentWeather.air_quality.o3, './assets/icon/7.svg')}
+        ${createAirQualityCard('SO2', currentWeather.air_quality.so2, './assets/icon/8.svg')}
+        ${createAirQualityCard('PM2.5', currentWeather.air_quality.pm2_5, './assets/icon/9.svg')}
+        ${createAirQualityCard('PM10', currentWeather.air_quality.pm10, './assets/icon/10.svg')}
       </div>
     </div>
   `;
