@@ -1,3 +1,4 @@
+- docs: update (#4)
 - chore: community guide (#3)
 # 📜 Changelog
 
