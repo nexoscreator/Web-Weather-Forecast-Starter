@@ -46,7 +46,7 @@ function displayWeather(data) {
   // Display current weather information
   const weatherInfo = document.getElementById('weather-info');
   const weatherHeader = document.getElementById('weather-header');
-  
+
   // Assuming you want the forecast for the first day
   weatherHeader.innerHTML = `
     <h2>${location.name}</h2>
